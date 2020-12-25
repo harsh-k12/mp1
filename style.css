@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color:  lightgray;
+  background-color:  rgb(165, 165, 165);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -42,6 +42,7 @@ nav{
   position: fixed;
   border-radius: 3px;
   color: black;
+  padding-bottom: 50px;
 }
 
 .form{
@@ -56,8 +57,10 @@ nav{
   height: 100%;
   padding-top: 20px;
   border: none;
-  background-color: lightgray;
+  background-color: rgb(165, 165, 165);
   outline: none;
+  font-size: 25px;
+  text-align: center;
 }
 
 .form label{
@@ -87,13 +90,13 @@ nav{
   bottom: 5px;
   left: 0px;
   transition: all 0.3s ease;
+  font-size: 25px;
 }
 
 .form input:focus + .label-name .content-name,
 .form input:valid + .label-name .content-name {
   transform: translateY(-150%);
-  font-size: 14px;
-  color: red;
+  font-size: 16px;
 }
 
 .form input:focus + .label-name::after, .form input:valid + .label-name::after{
