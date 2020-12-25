@@ -96,7 +96,7 @@ nav{
 .form input:focus + .label-name .content-name,
 .form input:valid + .label-name .content-name {
   transform: translateY(-150%);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .form input:focus + .label-name::after, .form input:valid + .label-name::after{
@@ -127,6 +127,9 @@ nav{
   #title{
     font-size: 55px;
   }
+  .content-name{
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 400px){
   #sM{
@@ -151,6 +154,9 @@ nav{
   }
   #search-button{
     font-size: 20px;
+  }
+  .content-name{
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 250px){
