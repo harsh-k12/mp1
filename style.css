@@ -27,7 +27,7 @@ nav{
   color: white;
   vertical-align: middle;
 }
-.sM{
+#sM{
   font-size: 60px;
   position: fixed;
   border-radius: 3px;
@@ -36,17 +36,17 @@ nav{
 }
 
 @media screen and (max-width: 1000px){
-  .sM{
+  #sM{
     padding-left: 30%;
   }
 }
 @media screen and (max-width: 750px){
-  .sM{
+  #sM{
     padding-left: 20%;
   }
 }
 @media screen and (max-width: 500px){
-  .sM{
+  #sM{
     padding-left: 5%;
     font-size: 50px;
   }
@@ -55,7 +55,7 @@ nav{
   }
 }
 @media screen and (max-width: 400px){
-  .sM{
+  #sM{
     padding-left: 0%;
   }
   #title{
@@ -69,7 +69,7 @@ nav{
   }
 }
 @media screen and (max-width: 300px){
-  .sM{
+  #sM{
     font-size: 40px;
   }
   #title{
