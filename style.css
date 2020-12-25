@@ -29,7 +29,7 @@ nav{
   vertical-align: middle;
 }
 
-#title{
+#navName{
   position: relative;
   font-size: 65px;
   padding-left: 5px;
@@ -39,7 +39,7 @@ nav{
 
 #sM{
   font-size: 60px;
-  position: fixed;
+  position: relative;
   border-radius: 3px;
   color: black;
   padding-bottom: 50px;
@@ -103,8 +103,7 @@ nav{
   transform: translateX(0%);
 }
 
-
-#search-button{
+#submit{            /* SEARCH BUTTON */
   width: 30%;
   height: 50px;
   border-radius: 9px;
@@ -114,17 +113,25 @@ nav{
   outline: none;
 }
 
-#search-button:hover{
+#submit:hover{
   background-color: rgb(26, 153, 26);
 }
 
+
+/*TABLE OF FETCHED DETAILS*/
+
+.table{
+  background-color: rgb(155, 155, 155);
+}
+
+/*~~~~~~~~END~~~~~~~~~~*/
 
 
 @media screen and (max-width: 500px){
   #sM{
     font-size: 50px;
   }
-  #title{
+  #navName{
     font-size: 55px;
   }
   .content-name{
@@ -135,7 +142,7 @@ nav{
   #sM{
     font-size: 40px;
   }
-  #title{
+  #navName{
     font-size: 37px;
   }
   #img{
@@ -149,10 +156,10 @@ nav{
   #sM{
     font-size: 30px;
   }
-  #title{
+  #navName{
     font-size: 30px;
   }
-  #search-button{
+  #submit{
     font-size: 20px;
   }
   .content-name{
@@ -163,7 +170,7 @@ nav{
   #sM{
     font-size: 30px;
   }
-  #title{
+  #navName{
     font-size: 25px;
   }
 }
@@ -171,10 +178,10 @@ nav{
   #sM{
     font-size: 25px;
   }
-  #title{
+  #navName{
     font-size: 20px;
   }
-  #search-button{
+  #submit{
     font-size: 15px;
   }
 }

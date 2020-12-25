@@ -11,17 +11,17 @@
 
     <nav>
       <img src="img.jpg" alt="M" id="img">
-      <label id="title">Movie Details</label>
+      <label id="navName">Movie Details</label>
     </nav>
 
     <br/>
 
     <div id="sM">Search Movies</div>
 
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/>
     
     <div class="form">
-      <input type="text" name="movieTitle" autocomplete="on" required />
+      <input type="text" name="movieTitle" autocomplete="on" id="title" required />
       <label for="movieTitle" class="label-name">
         <span class="content-name">Enter Movie Title</span>
       </label>
@@ -29,7 +29,18 @@
 
     <br/><br/>
 
-    <button type="button" id="search-button">Search</button>
+    <button type="button" id="submit">Search</button>
+
+    <br/>
+
+    <div>
+      <table class="table">
+        <tbody id="infoTable"></tbody>
+      </table>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
