@@ -123,13 +123,21 @@ nav{
 .table{
   background-color: rgb(155, 155, 155);
   font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #infoTable{
-  background-color: lightgray;
+  background-color: rgb(179, 179, 179);
+  
 }
 
 /*~~~~~~~~END~~~~~~~~~~*/
+
+#footer{
+  padding-top: 200px;
+}
 
 
 @media screen and (max-width: 500px){
