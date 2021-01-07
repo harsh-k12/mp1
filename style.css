@@ -122,6 +122,11 @@ nav{
 
 .table{
   background-color: rgb(155, 155, 155);
+  font-size: 20px;
+}
+
+#infoTable{
+  background-color: lightgray;
 }
 
 /*~~~~~~~~END~~~~~~~~~~*/
